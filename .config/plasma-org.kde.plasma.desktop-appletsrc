@@ -264,4 +264,4 @@ AppletOrder=52;53;54;55;69;70;112
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Roblox Studio.desktop,0,fde3ae67-82c3-40c6-a69e-e38b3013a84a,desktop:/steam.desktop,0,fde3ae67-82c3-40c6-a69e-e38b3013a84a,desktop:/Roblox Player.lnk,0,fde3ae67-82c3-40c6-a69e-e38b3013a84a,desktop:/Roblox Player.desktop,0,fde3ae67-82c3-40c6-a69e-e38b3013a84a,desktop:/Roblox Studio.lnk,0,fde3ae67-82c3-40c6-a69e-e38b3013a84a
+screenMapping=desktop:/steam.desktop,0,fde3ae67-82c3-40c6-a69e-e38b3013a84a
