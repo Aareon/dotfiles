@@ -1,0 +1,11 @@
+[Unit]
+Description=Restore display config on screen unlock
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c 'dbus-monitor --session "type=signal,interface=org.freedesktop.ScreenSaver" | while read -r line; do if echo "$line" | grep -q "boolean false"; then sleep 1; /home/aareon/.local/bin/restore-displays.sh; fi; done'
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=default.target
